@@ -1,8 +1,8 @@
-function calculadoraIMC(peso, altura)
-{
-  peso = prompt("Ingrese su peso en Kg") ;
-  altura = prompt("Ingrese su altura en metros");
-  var imc =Math.round(peso/(altura*altura));
-  alert("Indice de Mase Corporal : " + imc);
+function calculadoraIMC(peso,altura){
+  peso= prompt("ingrese su peso") ;
+  altura= prompt("ingrese su altura");
+ var imc =Math.round(peso/(altura*altura));
+ alert("el resultado es : " + imc);
+
 }
 calculadoraIMC();
