@@ -3,5 +3,6 @@ function calculadoraIMC(peso,altura){
   altura= prompt("ingrese su altura");
  var imc =Math.round(peso/(altura*altura));
  alert("el resultado es : " + imc);
+
 }
 calculadoraIMC();
